@@ -14,7 +14,7 @@ from tkinter import ttk
 from tkinter.filedialog import askopenfilename
 import urllib.parse
 from tkinter import messagebox
-from tkinter import *
+
 
 class App(tkinter.Frame):
     def __init__(self, master=None):
@@ -69,7 +69,8 @@ if __name__=="__main__":
     WBR.master.title("WBR - White Background Remover")
     #WBR.master.maxsize(500,500)
     tabsDefinition()
-
+    singleFileModif()
+    
     WBR.mainloop()
 
 
